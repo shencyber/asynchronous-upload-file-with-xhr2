@@ -29,8 +29,7 @@ $(function(){
 		{
 			console.log("上传成功");
 			var data =  JSON.parse( xhr.response );
-			console.log(data.files.name);
-			document.write(data.files);
+			console.log(data.file.files);
 		}
 		else
 			console.log("error");
